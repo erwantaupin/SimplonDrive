@@ -3,32 +3,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/style.css">
-    <script src="../assets/js/script.js"></script>
     <script src="https://kit.fontawesome.com/c45c6f75e4.js" crossorigin="anonymous"></script>
     <title>header</title>
 </head>
 <body>
+    <div class="barretop"></div>
     <div class="header">
         <div class="logo-page">
         </div>
         <div class="navbar">
-            <li class="nav-1">
-                <a class="nav-link1" href="index.php">
-                    <i class="fas fa-home" aria-hidden="true"></i>
-                    ACCUEIL
+            <li class="nav">
+                <a class="nav-link" href="index.php">
+                    <h3><i class="fas fa-home" aria-hidden="true"></i> ACCUEIL</h3>
                 </a>
             </li>
-            <li class="nav-2">
-                <a class="nav-link2" href="boutique.php">
+            <li class="nav">
+                <div class="dropdown">
+                    <button id="bboutique" onclick="window.location.href = 'boutique.php';"><h3><i class="fas fa-shopping-basket"></i> BOUTIQUE</h3></button>
+                    <div class="dropdown-content">
+                        <a href="viande.php"><h4>Viande</h4></a><br>
+                        <a href="legume.php"><h4>legume</h4></a><br>
+                        <a href="dessert.php"><h4>Dessert</h4></a>
+                    </div>
+                </div>
+                <!-- <a class="nav-link" href="boutique.php">
                     <i class="fas fa-cash-register" aria-hidden="true"></i>
                     BOUTIQUE
-                </a>
+                </a> -->
             </li>
-            <li class="nav-3">
-                <a class="nav-link3" href="contact.php">
-                    <i class="fas fa-address-book" aria-hidden="true"></i>
-                    CONTACT
+            <li class="nav">
+                <a class="nav-link" href="contact.php">
+                    
+                    <h3><i class="fas fa-address-book" aria-hidden="true"></i> CONTACT</h3>
                 </a>
             </li>
         </div>
