@@ -1,0 +1,30 @@
+.footer {    
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    flex-direction: column;
+    
+}
+
+.menu {
+width: 100%;
+display: inline;  
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-decoration: none;
+}
+ 
+.logo {
+   
+}   
+    
+    
+H5 {
+    color: red;
+    
+   
+}
