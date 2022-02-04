@@ -26,14 +26,9 @@
                         <a href="dessert.php"><h4>Dessert</h4></a>
                     </div>
                 </div>
-                <!-- <a class="nav-link" href="boutique.php">
-                    <i class="fas fa-cash-register" aria-hidden="true"></i>
-                    BOUTIQUE
-                </a> -->
             </li>
             <li class="nav">
                 <a class="nav-link" href="contact.php">
-                    
                     <h3><i class="fas fa-address-book" aria-hidden="true"></i> CONTACT</h3>
                 </a>
             </li>
