@@ -11,7 +11,7 @@
     <div class="footer">
         <div class="menu">
             <ul class="ul">        
-                <li><a href="premiermenu" title="page_d'accueil">ACCUEIL</a></li>
+                <li><a href="premiermenu" title="page-d'accueil">ACCUEIL</a></li>
                 <li><a href="deuxiememenu" title="page-boutique">BOUTIQUE</a></li>
                 <li><a href="troisiememenu" title="page-contact">CONTACT</a></li>
             </ul>
