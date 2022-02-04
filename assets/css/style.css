@@ -98,15 +98,57 @@ a {
 }
 .navcontainer {
     display: flex;
-    flex-direction: row;
-    width: 100%;
+    text-align: center;
+    justify-content: space-between;
+    width: 90%;
     height: auto;
+    padding: 100px;
 }
+
+.navcontainer.boutique {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .navcontainer li {
     object-fit: cover;
-    background-color: #d11328;
-    width: 300px;
+    padding-top: 30px;
+    width: 500px;
+    height: 340px;
+    border: 10px solid #d11328;
+    border-radius: 5%;
+    background-color: #1B3549;
+}
+.Viande, .legume, .desserts {
+    width: 600px;
+    height: 400px;
+}
+.navcontainer img {
+    width: 400px;
+    height: 298px;
+    padding-bottom: 6px;
+    border-radius: 5%;
+    border: 3px solid black;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 9px 13px 16px 11px rgba(0,0,0,0.64); 
+    box-shadow: 0px 10px 13px -7px #000000, 9px 13px 16px 11px rgba(0,0,0,0.64);
+}
+.navcontainer h3 {
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.buttonreturn {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.buttonreturn img {
+    width: 7%;
     height: auto;
+    border-radius: 1em;
+    border: 3px solid #1B3549;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 9px 13px 16px 11px rgba(0,0,0,0.64); 
+    box-shadow: 0px 10px 13px -7px #000000, 9px 13px 16px 11px rgba(0,0,0,0.64);
 }
 /* .navbo {
     display: flex;
