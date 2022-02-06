@@ -51,7 +51,6 @@ H5 {
 }
 
 .bienvenu {
-height: 200px;
-width: 100%;
-background-image: url("../img/batimentCCI.jpg");
+background-color: red;
+
 }
