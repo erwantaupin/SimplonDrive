@@ -86,6 +86,7 @@ li {
     border: none;
 }
 h3 {
+    font-family: 'Oswald';
     color: #979797;
     font-size: 16px;
     font-weight: 100;
@@ -95,6 +96,9 @@ h4 {
     color: #979797;
     font-size: 12px;
     font-weight: 300;
+}
+p {
+    font-family: 'Oswald';
 }
 
 i {
