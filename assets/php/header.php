@@ -21,9 +21,9 @@
                 <div class="dropdown">
                     <button id="bboutique" onclick="window.location.href = 'boutique.php';"><h3><i class="fas fa-shopping-basket"></i> BOUTIQUE</h3></button>
                     <div class="dropdown-content">
-                        <a href="viande.php"><h4>Viande</h4></a><br>
-                        <a href="legume.php"><h4>legume</h4></a><br>
-                        <a href="dessert.php"><h4>Dessert</h4></a>
+                        <a href="boutique-viandes.php"><h4>Viandes</h4></a><br>
+                        <a href="boutique-legumes.php"><h4>legumes</h4></a><br>
+                        <a href="boutique-desserts.php"><h4>Desserts</h4></a>
                     </div>
                 </div>
             </li>
